@@ -48,10 +48,70 @@ namespace Demo_Code_First.Controllers
                 categoryid = productDto.categoryid
             };
 
-            _context.Products.Add(product);
+                // Thêm sản phẩm vào cơ sở dữ liệu
+                _context.Products.Add(newProduct);
+                _context.SaveChanges();
+
+            // Điều hướng về trang Index sau khi lưu thành công
+            return RedirectToAction("Index", "Product");
+        }
+
+        public IActionResult Edit(int id, Product product)
+        {
+            var productEdit = _context.Products.Find(id);
+            if (productEdit == null)
+            {
+                return RedirectToAction("Index", "Products");
+            }
+
+                ViewBag.Categories = new SelectList(_context.Categories, "Id", "Name");
+
+            if (!ModelState.IsValid)
+            {
+                ViewBag.ProductId = product.categoryid;
+                return View(product);
+            }
+            productEdit.productName = product.productName;
+            productEdit.Price = product.Price;
+            productEdit.Quantity = product.Quantity;
+            productEdit.Description = product.Description;
+            productEdit.category = product.category;
+
             _context.SaveChanges();
 
             return RedirectToAction("Index", "Products");
+        }
+
+
+        public IActionResult Details(int id)
+        {
+            var product = _context.Products.FirstOrDefault(p => p.productID == id);
+
+            if (product == null)
+            {
+                return NotFound();
+            }
+
+            var category = _context.Categories.FirstOrDefault(c => c.CategoryID == product.categoryid);
+
+            var ImagesDirectoryPath = Path.Combine(_webHostEnvironment.WebRootPath, "images", product.ImagesDirectory);
+            var files = Directory.Exists(ImagesDirectoryPath) ? Directory.GetFiles(ImagesDirectoryPath, "*.*").ToList() : new List<string>();
+            var imagePath = files.Select(file =>
+                "/" + Path.GetRelativePath(_webHostEnvironment.WebRootPath, file).Replace("\\", "/")
+            ).ToList();
+
+            var productDetailsViewModel = new ProductDetailsViewModel
+            {
+                productID = product.productID,
+                productName = product.productName,
+                Price = product.Price,
+                Quantity = product.Quantity,
+                Description = product.Description,
+                CategoryName = product.category?.CategoryName,
+                Images = imagePath
+            };
+
+            return View(productDetailsViewModel);
         }
 
         public IActionResult Delete(int id)
