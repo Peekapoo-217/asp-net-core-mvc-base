@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
       "Id": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
@@ -67,6 +71,34 @@
     {
       "Id": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\d8abe7b8-51b6-4889-bf95-6885f88d6d7f\\acerrightside.webp",
       "PackagePath": "staticwebassets\\images\\d8abe7b8-51b6-4889-bf95-6885f88d6d7f\\acerrightside.webp"
+    },
+    {
+      "Id": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\ea175459-5e39-4336-976f-44e99804469b\\s23-ultra-den-2_1.webp",
+      "PackagePath": "staticwebassets\\images\\ea175459-5e39-4336-976f-44e99804469b\\s23-ultra-den-2_1.webp"
+    },
+    {
+      "Id": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\ea175459-5e39-4336-976f-44e99804469b\\samsung-galaxy-s23-ultra-12gb-512gb.webp",
+      "PackagePath": "staticwebassets\\images\\ea175459-5e39-4336-976f-44e99804469b\\samsung-galaxy-s23-ultra-12gb-512gb.webp"
+    },
+    {
+      "Id": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\ea175459-5e39-4336-976f-44e99804469b\\samsung-s23-ulatra_2_.webp",
+      "PackagePath": "staticwebassets\\images\\ea175459-5e39-4336-976f-44e99804469b\\samsung-s23-ulatra_2_.webp"
+    },
+    {
+      "Id": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\fe300f81-805b-41ad-8734-0f35b7501fed\\frame_141.webp",
+      "PackagePath": "staticwebassets\\images\\fe300f81-805b-41ad-8734-0f35b7501fed\\frame_141.webp"
+    },
+    {
+      "Id": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\fe300f81-805b-41ad-8734-0f35b7501fed\\frame_142.webp",
+      "PackagePath": "staticwebassets\\images\\fe300f81-805b-41ad-8734-0f35b7501fed\\frame_142.webp"
+    },
+    {
+      "Id": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\fe300f81-805b-41ad-8734-0f35b7501fed\\frame_143.webp",
+      "PackagePath": "staticwebassets\\images\\fe300f81-805b-41ad-8734-0f35b7501fed\\frame_143.webp"
+    },
+    {
+      "Id": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\fe300f81-805b-41ad-8734-0f35b7501fed\\nubia-neo-2.webp",
+      "PackagePath": "staticwebassets\\images\\fe300f81-805b-41ad-8734-0f35b7501fed\\nubia-neo-2.webp"
     },
     {
       "Id": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\js\\site.js",

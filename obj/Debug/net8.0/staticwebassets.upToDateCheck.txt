@@ -1,4 +1,5 @@
 wwwroot\css\site.css
+wwwroot\css\style.css
 wwwroot\favicon.ico
 wwwroot\images\317a0e95-e570-49a4-9b5a-bd61d0efdefc\iphone-15-plus_1__1.webp
 wwwroot\images\317a0e95-e570-49a4-9b5a-bd61d0efdefc\vn_iphone_15_pink_pdp_image_position-2_design_2.webp
@@ -14,6 +15,13 @@ wwwroot\images\d8abe7b8-51b6-4889-bf95-6885f88d6d7f\acerleftside1.webp
 wwwroot\images\d8abe7b8-51b6-4889-bf95-6885f88d6d7f\acerlord.webp
 wwwroot\images\d8abe7b8-51b6-4889-bf95-6885f88d6d7f\acerlord1.webp
 wwwroot\images\d8abe7b8-51b6-4889-bf95-6885f88d6d7f\acerrightside.webp
+wwwroot\images\ea175459-5e39-4336-976f-44e99804469b\s23-ultra-den-2_1.webp
+wwwroot\images\ea175459-5e39-4336-976f-44e99804469b\samsung-galaxy-s23-ultra-12gb-512gb.webp
+wwwroot\images\ea175459-5e39-4336-976f-44e99804469b\samsung-s23-ulatra_2_.webp
+wwwroot\images\fe300f81-805b-41ad-8734-0f35b7501fed\frame_141.webp
+wwwroot\images\fe300f81-805b-41ad-8734-0f35b7501fed\frame_142.webp
+wwwroot\images\fe300f81-805b-41ad-8734-0f35b7501fed\frame_143.webp
+wwwroot\images\fe300f81-805b-41ad-8734-0f35b7501fed\nubia-neo-2.webp
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

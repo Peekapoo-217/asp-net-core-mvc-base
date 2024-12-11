@@ -3,5 +3,6 @@
     public class ProductFilter
     {
         public int? CategoryId { get; set; }
+        public string SearchTerm { get; set; }
     }
 }

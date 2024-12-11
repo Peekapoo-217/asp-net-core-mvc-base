@@ -13,10 +13,8 @@ namespace Demo_Code_First.Models
         public Nullable<decimal> Price { get; set; }
 
         public int Quantity { get; set; }
-
         public string MainImage { get; set; }
         public string CategoryName { get; set; }
-
 
     }
 }

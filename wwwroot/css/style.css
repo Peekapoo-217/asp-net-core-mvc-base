@@ -1,0 +1,24 @@
+﻿.btn-gradient {
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    border: none;
+}
+
+    .btn-gradient:hover {
+        background: linear-gradient(45deg, #2575fc, #6a11cb);
+    }
+
+.hover-effect:hover {
+    background-color: #ff6347; /* Màu đỏ cam tươi */
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.input-group input:focus {
+    border-color: #2575fc;
+    box-shadow: 0 0 5px rgba(37, 117, 252, 0.5);
+}
+
+.form-select:focus {
+    border-color: #2575fc;
+    box-shadow: 0 0 5px rgba(37, 117, 252, 0.5);
+}
