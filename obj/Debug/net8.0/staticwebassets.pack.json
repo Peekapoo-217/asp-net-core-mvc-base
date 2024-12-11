@@ -13,6 +13,62 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\317a0e95-e570-49a4-9b5a-bd61d0efdefc\\iphone-15-plus_1__1.webp",
+      "PackagePath": "staticwebassets\\images\\317a0e95-e570-49a4-9b5a-bd61d0efdefc\\iphone-15-plus_1__1.webp"
+    },
+    {
+      "Id": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\317a0e95-e570-49a4-9b5a-bd61d0efdefc\\vn_iphone_15_pink_pdp_image_position-2_design_2.webp",
+      "PackagePath": "staticwebassets\\images\\317a0e95-e570-49a4-9b5a-bd61d0efdefc\\vn_iphone_15_pink_pdp_image_position-2_design_2.webp"
+    },
+    {
+      "Id": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\317a0e95-e570-49a4-9b5a-bd61d0efdefc\\vn_iphone_15_pink_pdp_image_position-8_usb-c_charge_cable_2.webp",
+      "PackagePath": "staticwebassets\\images\\317a0e95-e570-49a4-9b5a-bd61d0efdefc\\vn_iphone_15_pink_pdp_image_position-8_usb-c_charge_cable_2.webp"
+    },
+    {
+      "Id": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\4e8b02c7-c4c7-4e8c-a59c-039d3ac357ed\\acerleftside1.webp",
+      "PackagePath": "staticwebassets\\images\\4e8b02c7-c4c7-4e8c-a59c-039d3ac357ed\\acerleftside1.webp"
+    },
+    {
+      "Id": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\4e8b02c7-c4c7-4e8c-a59c-039d3ac357ed\\acerlord1.webp",
+      "PackagePath": "staticwebassets\\images\\4e8b02c7-c4c7-4e8c-a59c-039d3ac357ed\\acerlord1.webp"
+    },
+    {
+      "Id": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\4e8b02c7-c4c7-4e8c-a59c-039d3ac357ed\\acerrightside.webp",
+      "PackagePath": "staticwebassets\\images\\4e8b02c7-c4c7-4e8c-a59c-039d3ac357ed\\acerrightside.webp"
+    },
+    {
+      "Id": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\cb27fcd6-e8bb-4924-9974-1651d5436dde\\text_ng_n_11__5_112.webp",
+      "PackagePath": "staticwebassets\\images\\cb27fcd6-e8bb-4924-9974-1651d5436dde\\text_ng_n_11__5_112.webp"
+    },
+    {
+      "Id": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\cb27fcd6-e8bb-4924-9974-1651d5436dde\\text_ng_n_12__5_108.webp",
+      "PackagePath": "staticwebassets\\images\\cb27fcd6-e8bb-4924-9974-1651d5436dde\\text_ng_n_12__5_108.webp"
+    },
+    {
+      "Id": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\cb27fcd6-e8bb-4924-9974-1651d5436dde\\text_ng_n_13__6_100.webp",
+      "PackagePath": "staticwebassets\\images\\cb27fcd6-e8bb-4924-9974-1651d5436dde\\text_ng_n_13__6_100.webp"
+    },
+    {
+      "Id": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\cb27fcd6-e8bb-4924-9974-1651d5436dde\\text_ng_n_15__7_88.webp",
+      "PackagePath": "staticwebassets\\images\\cb27fcd6-e8bb-4924-9974-1651d5436dde\\text_ng_n_15__7_88.webp"
+    },
+    {
+      "Id": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\d8abe7b8-51b6-4889-bf95-6885f88d6d7f\\acerleftside1.webp",
+      "PackagePath": "staticwebassets\\images\\d8abe7b8-51b6-4889-bf95-6885f88d6d7f\\acerleftside1.webp"
+    },
+    {
+      "Id": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\d8abe7b8-51b6-4889-bf95-6885f88d6d7f\\acerlord.webp",
+      "PackagePath": "staticwebassets\\images\\d8abe7b8-51b6-4889-bf95-6885f88d6d7f\\acerlord.webp"
+    },
+    {
+      "Id": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\d8abe7b8-51b6-4889-bf95-6885f88d6d7f\\acerlord1.webp",
+      "PackagePath": "staticwebassets\\images\\d8abe7b8-51b6-4889-bf95-6885f88d6d7f\\acerlord1.webp"
+    },
+    {
+      "Id": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\d8abe7b8-51b6-4889-bf95-6885f88d6d7f\\acerrightside.webp",
+      "PackagePath": "staticwebassets\\images\\d8abe7b8-51b6-4889-bf95-6885f88d6d7f\\acerrightside.webp"
+    },
+    {
       "Id": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

@@ -170,3 +170,4 @@ F:\ASP Core\Advanced_C#\Demo_Code_First\obj\Debug\net8.0\refint\Demo_Code_First.
 F:\ASP Core\Advanced_C#\Demo_Code_First\obj\Debug\net8.0\Demo_Code_First.pdb
 F:\ASP Core\Advanced_C#\Demo_Code_First\obj\Debug\net8.0\Demo_Code_First.genruntimeconfig.cache
 F:\ASP Core\Advanced_C#\Demo_Code_First\obj\Debug\net8.0\ref\Demo_Code_First.dll
+F:\ASP Core\Advanced_C#\Demo_Code_First\obj\Debug\net8.0\Demo_Code_First.sourcelink.json

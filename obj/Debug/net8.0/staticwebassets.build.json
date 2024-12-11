@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9UPh/eOMYgrQBiko8MNby21rH5haimYgWnC+7Wm6La4=",
+  "Hash": "tDP0rEK18TNp7vCeqzxsm9BNH/yjqCsIJIlpda6U9/4=",
   "Source": "Demo_Code_First",
   "BasePath": "_content/Demo_Code_First",
   "Mode": "Default",
@@ -99,6 +99,300 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\317a0e95-e570-49a4-9b5a-bd61d0efdefc\\iphone-15-plus_1__1.webp",
+      "SourceId": "Demo_Code_First",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\",
+      "BasePath": "_content/Demo_Code_First",
+      "RelativePath": "images/317a0e95-e570-49a4-9b5a-bd61d0efdefc/iphone-15-plus_1__1#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fw5xlu0xr8",
+      "Integrity": "4bYNzA7ndcGmlxoPIpZTYpITxgjt57UdlXNL2QvbuQo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\317a0e95-e570-49a4-9b5a-bd61d0efdefc\\iphone-15-plus_1__1.webp"
+    },
+    {
+      "Identity": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\317a0e95-e570-49a4-9b5a-bd61d0efdefc\\vn_iphone_15_pink_pdp_image_position-2_design_2.webp",
+      "SourceId": "Demo_Code_First",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\",
+      "BasePath": "_content/Demo_Code_First",
+      "RelativePath": "images/317a0e95-e570-49a4-9b5a-bd61d0efdefc/vn_iphone_15_pink_pdp_image_position-2_design_2#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8l0yinyozn",
+      "Integrity": "hJoQxNp255/Uuo22EgwKKlgURm4oLtyjyVYAN2/PUs0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\317a0e95-e570-49a4-9b5a-bd61d0efdefc\\vn_iphone_15_pink_pdp_image_position-2_design_2.webp"
+    },
+    {
+      "Identity": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\317a0e95-e570-49a4-9b5a-bd61d0efdefc\\vn_iphone_15_pink_pdp_image_position-8_usb-c_charge_cable_2.webp",
+      "SourceId": "Demo_Code_First",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\",
+      "BasePath": "_content/Demo_Code_First",
+      "RelativePath": "images/317a0e95-e570-49a4-9b5a-bd61d0efdefc/vn_iphone_15_pink_pdp_image_position-8_usb-c_charge_cable_2#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wtvgdb7guh",
+      "Integrity": "JK7dvUsjZnpiKhUDaYEjh+9bBKmtINVONYkDKIp/Yq0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\317a0e95-e570-49a4-9b5a-bd61d0efdefc\\vn_iphone_15_pink_pdp_image_position-8_usb-c_charge_cable_2.webp"
+    },
+    {
+      "Identity": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\4e8b02c7-c4c7-4e8c-a59c-039d3ac357ed\\acerleftside1.webp",
+      "SourceId": "Demo_Code_First",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\",
+      "BasePath": "_content/Demo_Code_First",
+      "RelativePath": "images/4e8b02c7-c4c7-4e8c-a59c-039d3ac357ed/acerleftside1#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bmxoc80dlb",
+      "Integrity": "M6w0nFYzRUMbdHxc/8+pszkioVTW3P3BSIWvz8SH78w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\4e8b02c7-c4c7-4e8c-a59c-039d3ac357ed\\acerleftside1.webp"
+    },
+    {
+      "Identity": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\4e8b02c7-c4c7-4e8c-a59c-039d3ac357ed\\acerlord1.webp",
+      "SourceId": "Demo_Code_First",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\",
+      "BasePath": "_content/Demo_Code_First",
+      "RelativePath": "images/4e8b02c7-c4c7-4e8c-a59c-039d3ac357ed/acerlord1#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "m5xnvj9vlk",
+      "Integrity": "Zv0zzlLZtrSe9c6osY2ka7j9vVJPbC7Hd/kGzoIgVuw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\4e8b02c7-c4c7-4e8c-a59c-039d3ac357ed\\acerlord1.webp"
+    },
+    {
+      "Identity": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\4e8b02c7-c4c7-4e8c-a59c-039d3ac357ed\\acerrightside.webp",
+      "SourceId": "Demo_Code_First",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\",
+      "BasePath": "_content/Demo_Code_First",
+      "RelativePath": "images/4e8b02c7-c4c7-4e8c-a59c-039d3ac357ed/acerrightside#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ap378l6w9s",
+      "Integrity": "fuos1HywptsCSq2+3r27qqxM9Ovlk4x5B+h0jqeXw8M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\4e8b02c7-c4c7-4e8c-a59c-039d3ac357ed\\acerrightside.webp"
+    },
+    {
+      "Identity": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\cb27fcd6-e8bb-4924-9974-1651d5436dde\\text_ng_n_11__5_112.webp",
+      "SourceId": "Demo_Code_First",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\",
+      "BasePath": "_content/Demo_Code_First",
+      "RelativePath": "images/cb27fcd6-e8bb-4924-9974-1651d5436dde/text_ng_n_11__5_112#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "h3vuwptn6d",
+      "Integrity": "7azqcJL0nMBdPNq1XgyyVU6AkR1dLpex+EHpA79gTNg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\cb27fcd6-e8bb-4924-9974-1651d5436dde\\text_ng_n_11__5_112.webp"
+    },
+    {
+      "Identity": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\cb27fcd6-e8bb-4924-9974-1651d5436dde\\text_ng_n_12__5_108.webp",
+      "SourceId": "Demo_Code_First",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\",
+      "BasePath": "_content/Demo_Code_First",
+      "RelativePath": "images/cb27fcd6-e8bb-4924-9974-1651d5436dde/text_ng_n_12__5_108#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k88xtb91vo",
+      "Integrity": "9MCYf/5/M60sPjbfFtI3XQZ7+ue93NgjUcuPGveU80U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\cb27fcd6-e8bb-4924-9974-1651d5436dde\\text_ng_n_12__5_108.webp"
+    },
+    {
+      "Identity": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\cb27fcd6-e8bb-4924-9974-1651d5436dde\\text_ng_n_13__6_100.webp",
+      "SourceId": "Demo_Code_First",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\",
+      "BasePath": "_content/Demo_Code_First",
+      "RelativePath": "images/cb27fcd6-e8bb-4924-9974-1651d5436dde/text_ng_n_13__6_100#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fzd26ndv63",
+      "Integrity": "tTpQjA+ENtfvTicnOjFvMugxICvMALIUm++YCnLhu88=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\cb27fcd6-e8bb-4924-9974-1651d5436dde\\text_ng_n_13__6_100.webp"
+    },
+    {
+      "Identity": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\cb27fcd6-e8bb-4924-9974-1651d5436dde\\text_ng_n_15__7_88.webp",
+      "SourceId": "Demo_Code_First",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\",
+      "BasePath": "_content/Demo_Code_First",
+      "RelativePath": "images/cb27fcd6-e8bb-4924-9974-1651d5436dde/text_ng_n_15__7_88#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oxap0vtm2a",
+      "Integrity": "ZNAr7AUDjUiH4xm0RAZPFkx9qYOM4WCiLtzWMzOfQDU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\cb27fcd6-e8bb-4924-9974-1651d5436dde\\text_ng_n_15__7_88.webp"
+    },
+    {
+      "Identity": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\d8abe7b8-51b6-4889-bf95-6885f88d6d7f\\acerleftside1.webp",
+      "SourceId": "Demo_Code_First",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\",
+      "BasePath": "_content/Demo_Code_First",
+      "RelativePath": "images/d8abe7b8-51b6-4889-bf95-6885f88d6d7f/acerleftside1#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bmxoc80dlb",
+      "Integrity": "M6w0nFYzRUMbdHxc/8+pszkioVTW3P3BSIWvz8SH78w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\d8abe7b8-51b6-4889-bf95-6885f88d6d7f\\acerleftside1.webp"
+    },
+    {
+      "Identity": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\d8abe7b8-51b6-4889-bf95-6885f88d6d7f\\acerlord.webp",
+      "SourceId": "Demo_Code_First",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\",
+      "BasePath": "_content/Demo_Code_First",
+      "RelativePath": "images/d8abe7b8-51b6-4889-bf95-6885f88d6d7f/acerlord#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uy3vevbgw6",
+      "Integrity": "1n+YyqWX41R5OX2rEUx1eHxuJ3mgpKzcBEP7he3PaC4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\d8abe7b8-51b6-4889-bf95-6885f88d6d7f\\acerlord.webp"
+    },
+    {
+      "Identity": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\d8abe7b8-51b6-4889-bf95-6885f88d6d7f\\acerlord1.webp",
+      "SourceId": "Demo_Code_First",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\",
+      "BasePath": "_content/Demo_Code_First",
+      "RelativePath": "images/d8abe7b8-51b6-4889-bf95-6885f88d6d7f/acerlord1#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "m5xnvj9vlk",
+      "Integrity": "Zv0zzlLZtrSe9c6osY2ka7j9vVJPbC7Hd/kGzoIgVuw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\d8abe7b8-51b6-4889-bf95-6885f88d6d7f\\acerlord1.webp"
+    },
+    {
+      "Identity": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\d8abe7b8-51b6-4889-bf95-6885f88d6d7f\\acerrightside.webp",
+      "SourceId": "Demo_Code_First",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\",
+      "BasePath": "_content/Demo_Code_First",
+      "RelativePath": "images/d8abe7b8-51b6-4889-bf95-6885f88d6d7f/acerrightside#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ap378l6w9s",
+      "Integrity": "fuos1HywptsCSq2+3r27qqxM9Ovlk4x5B+h0jqeXw8M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\d8abe7b8-51b6-4889-bf95-6885f88d6d7f\\acerrightside.webp"
     },
     {
       "Identity": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\js\\site.js",
@@ -1425,7 +1719,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 29 Nov 2024 12:42:44 GMT"
+          "Value": "Fri, 29 Nov 2024 14:23:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1470,7 +1764,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 29 Nov 2024 12:42:44 GMT"
+          "Value": "Fri, 29 Nov 2024 14:23:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1515,7 +1809,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 29 Nov 2024 12:42:44 GMT"
+          "Value": "Fri, 29 Nov 2024 14:23:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1552,7 +1846,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 29 Nov 2024 12:42:44 GMT"
+          "Value": "Fri, 29 Nov 2024 14:23:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1645,6 +1939,1154 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "images/317a0e95-e570-49a4-9b5a-bd61d0efdefc/iphone-15-plus_1__1.fw5xlu0xr8.webp",
+      "AssetFile": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\317a0e95-e570-49a4-9b5a-bd61d0efdefc\\iphone-15-plus_1__1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7538"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4bYNzA7ndcGmlxoPIpZTYpITxgjt57UdlXNL2QvbuQo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 14:03:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fw5xlu0xr8"
+        },
+        {
+          "Name": "label",
+          "Value": "images/317a0e95-e570-49a4-9b5a-bd61d0efdefc/iphone-15-plus_1__1.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4bYNzA7ndcGmlxoPIpZTYpITxgjt57UdlXNL2QvbuQo="
+        }
+      ]
+    },
+    {
+      "Route": "images/317a0e95-e570-49a4-9b5a-bd61d0efdefc/iphone-15-plus_1__1.webp",
+      "AssetFile": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\317a0e95-e570-49a4-9b5a-bd61d0efdefc\\iphone-15-plus_1__1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7538"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4bYNzA7ndcGmlxoPIpZTYpITxgjt57UdlXNL2QvbuQo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 14:03:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4bYNzA7ndcGmlxoPIpZTYpITxgjt57UdlXNL2QvbuQo="
+        }
+      ]
+    },
+    {
+      "Route": "images/317a0e95-e570-49a4-9b5a-bd61d0efdefc/vn_iphone_15_pink_pdp_image_position-2_design_2.8l0yinyozn.webp",
+      "AssetFile": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\317a0e95-e570-49a4-9b5a-bd61d0efdefc\\vn_iphone_15_pink_pdp_image_position-2_design_2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2990"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hJoQxNp255/Uuo22EgwKKlgURm4oLtyjyVYAN2/PUs0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 14:03:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8l0yinyozn"
+        },
+        {
+          "Name": "label",
+          "Value": "images/317a0e95-e570-49a4-9b5a-bd61d0efdefc/vn_iphone_15_pink_pdp_image_position-2_design_2.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hJoQxNp255/Uuo22EgwKKlgURm4oLtyjyVYAN2/PUs0="
+        }
+      ]
+    },
+    {
+      "Route": "images/317a0e95-e570-49a4-9b5a-bd61d0efdefc/vn_iphone_15_pink_pdp_image_position-2_design_2.webp",
+      "AssetFile": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\317a0e95-e570-49a4-9b5a-bd61d0efdefc\\vn_iphone_15_pink_pdp_image_position-2_design_2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2990"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hJoQxNp255/Uuo22EgwKKlgURm4oLtyjyVYAN2/PUs0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 14:03:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hJoQxNp255/Uuo22EgwKKlgURm4oLtyjyVYAN2/PUs0="
+        }
+      ]
+    },
+    {
+      "Route": "images/317a0e95-e570-49a4-9b5a-bd61d0efdefc/vn_iphone_15_pink_pdp_image_position-8_usb-c_charge_cable_2.webp",
+      "AssetFile": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\317a0e95-e570-49a4-9b5a-bd61d0efdefc\\vn_iphone_15_pink_pdp_image_position-8_usb-c_charge_cable_2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5864"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JK7dvUsjZnpiKhUDaYEjh+9bBKmtINVONYkDKIp/Yq0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 14:03:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JK7dvUsjZnpiKhUDaYEjh+9bBKmtINVONYkDKIp/Yq0="
+        }
+      ]
+    },
+    {
+      "Route": "images/317a0e95-e570-49a4-9b5a-bd61d0efdefc/vn_iphone_15_pink_pdp_image_position-8_usb-c_charge_cable_2.wtvgdb7guh.webp",
+      "AssetFile": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\317a0e95-e570-49a4-9b5a-bd61d0efdefc\\vn_iphone_15_pink_pdp_image_position-8_usb-c_charge_cable_2.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5864"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JK7dvUsjZnpiKhUDaYEjh+9bBKmtINVONYkDKIp/Yq0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 14:03:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wtvgdb7guh"
+        },
+        {
+          "Name": "label",
+          "Value": "images/317a0e95-e570-49a4-9b5a-bd61d0efdefc/vn_iphone_15_pink_pdp_image_position-8_usb-c_charge_cable_2.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JK7dvUsjZnpiKhUDaYEjh+9bBKmtINVONYkDKIp/Yq0="
+        }
+      ]
+    },
+    {
+      "Route": "images/4e8b02c7-c4c7-4e8c-a59c-039d3ac357ed/acerleftside1.bmxoc80dlb.webp",
+      "AssetFile": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\4e8b02c7-c4c7-4e8c-a59c-039d3ac357ed\\acerleftside1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3142"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M6w0nFYzRUMbdHxc/8+pszkioVTW3P3BSIWvz8SH78w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 14:05:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bmxoc80dlb"
+        },
+        {
+          "Name": "label",
+          "Value": "images/4e8b02c7-c4c7-4e8c-a59c-039d3ac357ed/acerleftside1.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-M6w0nFYzRUMbdHxc/8+pszkioVTW3P3BSIWvz8SH78w="
+        }
+      ]
+    },
+    {
+      "Route": "images/4e8b02c7-c4c7-4e8c-a59c-039d3ac357ed/acerleftside1.webp",
+      "AssetFile": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\4e8b02c7-c4c7-4e8c-a59c-039d3ac357ed\\acerleftside1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3142"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M6w0nFYzRUMbdHxc/8+pszkioVTW3P3BSIWvz8SH78w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 14:05:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-M6w0nFYzRUMbdHxc/8+pszkioVTW3P3BSIWvz8SH78w="
+        }
+      ]
+    },
+    {
+      "Route": "images/4e8b02c7-c4c7-4e8c-a59c-039d3ac357ed/acerlord1.m5xnvj9vlk.webp",
+      "AssetFile": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\4e8b02c7-c4c7-4e8c-a59c-039d3ac357ed\\acerlord1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28406"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zv0zzlLZtrSe9c6osY2ka7j9vVJPbC7Hd/kGzoIgVuw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 14:05:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m5xnvj9vlk"
+        },
+        {
+          "Name": "label",
+          "Value": "images/4e8b02c7-c4c7-4e8c-a59c-039d3ac357ed/acerlord1.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zv0zzlLZtrSe9c6osY2ka7j9vVJPbC7Hd/kGzoIgVuw="
+        }
+      ]
+    },
+    {
+      "Route": "images/4e8b02c7-c4c7-4e8c-a59c-039d3ac357ed/acerlord1.webp",
+      "AssetFile": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\4e8b02c7-c4c7-4e8c-a59c-039d3ac357ed\\acerlord1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28406"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zv0zzlLZtrSe9c6osY2ka7j9vVJPbC7Hd/kGzoIgVuw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 14:05:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zv0zzlLZtrSe9c6osY2ka7j9vVJPbC7Hd/kGzoIgVuw="
+        }
+      ]
+    },
+    {
+      "Route": "images/4e8b02c7-c4c7-4e8c-a59c-039d3ac357ed/acerrightside.ap378l6w9s.webp",
+      "AssetFile": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\4e8b02c7-c4c7-4e8c-a59c-039d3ac357ed\\acerrightside.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3432"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fuos1HywptsCSq2+3r27qqxM9Ovlk4x5B+h0jqeXw8M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 14:05:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ap378l6w9s"
+        },
+        {
+          "Name": "label",
+          "Value": "images/4e8b02c7-c4c7-4e8c-a59c-039d3ac357ed/acerrightside.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fuos1HywptsCSq2+3r27qqxM9Ovlk4x5B+h0jqeXw8M="
+        }
+      ]
+    },
+    {
+      "Route": "images/4e8b02c7-c4c7-4e8c-a59c-039d3ac357ed/acerrightside.webp",
+      "AssetFile": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\4e8b02c7-c4c7-4e8c-a59c-039d3ac357ed\\acerrightside.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3432"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fuos1HywptsCSq2+3r27qqxM9Ovlk4x5B+h0jqeXw8M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 14:05:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fuos1HywptsCSq2+3r27qqxM9Ovlk4x5B+h0jqeXw8M="
+        }
+      ]
+    },
+    {
+      "Route": "images/cb27fcd6-e8bb-4924-9974-1651d5436dde/text_ng_n_11__5_112.h3vuwptn6d.webp",
+      "AssetFile": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\cb27fcd6-e8bb-4924-9974-1651d5436dde\\text_ng_n_11__5_112.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17564"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7azqcJL0nMBdPNq1XgyyVU6AkR1dLpex+EHpA79gTNg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 04:30:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h3vuwptn6d"
+        },
+        {
+          "Name": "label",
+          "Value": "images/cb27fcd6-e8bb-4924-9974-1651d5436dde/text_ng_n_11__5_112.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7azqcJL0nMBdPNq1XgyyVU6AkR1dLpex+EHpA79gTNg="
+        }
+      ]
+    },
+    {
+      "Route": "images/cb27fcd6-e8bb-4924-9974-1651d5436dde/text_ng_n_11__5_112.webp",
+      "AssetFile": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\cb27fcd6-e8bb-4924-9974-1651d5436dde\\text_ng_n_11__5_112.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17564"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7azqcJL0nMBdPNq1XgyyVU6AkR1dLpex+EHpA79gTNg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 04:30:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7azqcJL0nMBdPNq1XgyyVU6AkR1dLpex+EHpA79gTNg="
+        }
+      ]
+    },
+    {
+      "Route": "images/cb27fcd6-e8bb-4924-9974-1651d5436dde/text_ng_n_12__5_108.k88xtb91vo.webp",
+      "AssetFile": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\cb27fcd6-e8bb-4924-9974-1651d5436dde\\text_ng_n_12__5_108.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16302"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9MCYf/5/M60sPjbfFtI3XQZ7+ue93NgjUcuPGveU80U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 04:30:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k88xtb91vo"
+        },
+        {
+          "Name": "label",
+          "Value": "images/cb27fcd6-e8bb-4924-9974-1651d5436dde/text_ng_n_12__5_108.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9MCYf/5/M60sPjbfFtI3XQZ7+ue93NgjUcuPGveU80U="
+        }
+      ]
+    },
+    {
+      "Route": "images/cb27fcd6-e8bb-4924-9974-1651d5436dde/text_ng_n_12__5_108.webp",
+      "AssetFile": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\cb27fcd6-e8bb-4924-9974-1651d5436dde\\text_ng_n_12__5_108.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16302"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9MCYf/5/M60sPjbfFtI3XQZ7+ue93NgjUcuPGveU80U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 04:30:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9MCYf/5/M60sPjbfFtI3XQZ7+ue93NgjUcuPGveU80U="
+        }
+      ]
+    },
+    {
+      "Route": "images/cb27fcd6-e8bb-4924-9974-1651d5436dde/text_ng_n_13__6_100.fzd26ndv63.webp",
+      "AssetFile": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\cb27fcd6-e8bb-4924-9974-1651d5436dde\\text_ng_n_13__6_100.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16480"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tTpQjA+ENtfvTicnOjFvMugxICvMALIUm++YCnLhu88=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 04:30:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fzd26ndv63"
+        },
+        {
+          "Name": "label",
+          "Value": "images/cb27fcd6-e8bb-4924-9974-1651d5436dde/text_ng_n_13__6_100.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tTpQjA+ENtfvTicnOjFvMugxICvMALIUm++YCnLhu88="
+        }
+      ]
+    },
+    {
+      "Route": "images/cb27fcd6-e8bb-4924-9974-1651d5436dde/text_ng_n_13__6_100.webp",
+      "AssetFile": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\cb27fcd6-e8bb-4924-9974-1651d5436dde\\text_ng_n_13__6_100.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16480"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tTpQjA+ENtfvTicnOjFvMugxICvMALIUm++YCnLhu88=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 04:30:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tTpQjA+ENtfvTicnOjFvMugxICvMALIUm++YCnLhu88="
+        }
+      ]
+    },
+    {
+      "Route": "images/cb27fcd6-e8bb-4924-9974-1651d5436dde/text_ng_n_15__7_88.oxap0vtm2a.webp",
+      "AssetFile": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\cb27fcd6-e8bb-4924-9974-1651d5436dde\\text_ng_n_15__7_88.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4840"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZNAr7AUDjUiH4xm0RAZPFkx9qYOM4WCiLtzWMzOfQDU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 04:30:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oxap0vtm2a"
+        },
+        {
+          "Name": "label",
+          "Value": "images/cb27fcd6-e8bb-4924-9974-1651d5436dde/text_ng_n_15__7_88.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZNAr7AUDjUiH4xm0RAZPFkx9qYOM4WCiLtzWMzOfQDU="
+        }
+      ]
+    },
+    {
+      "Route": "images/cb27fcd6-e8bb-4924-9974-1651d5436dde/text_ng_n_15__7_88.webp",
+      "AssetFile": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\cb27fcd6-e8bb-4924-9974-1651d5436dde\\text_ng_n_15__7_88.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4840"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZNAr7AUDjUiH4xm0RAZPFkx9qYOM4WCiLtzWMzOfQDU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 04:30:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZNAr7AUDjUiH4xm0RAZPFkx9qYOM4WCiLtzWMzOfQDU="
+        }
+      ]
+    },
+    {
+      "Route": "images/d8abe7b8-51b6-4889-bf95-6885f88d6d7f/acerleftside1.bmxoc80dlb.webp",
+      "AssetFile": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\d8abe7b8-51b6-4889-bf95-6885f88d6d7f\\acerleftside1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3142"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M6w0nFYzRUMbdHxc/8+pszkioVTW3P3BSIWvz8SH78w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 05:16:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bmxoc80dlb"
+        },
+        {
+          "Name": "label",
+          "Value": "images/d8abe7b8-51b6-4889-bf95-6885f88d6d7f/acerleftside1.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-M6w0nFYzRUMbdHxc/8+pszkioVTW3P3BSIWvz8SH78w="
+        }
+      ]
+    },
+    {
+      "Route": "images/d8abe7b8-51b6-4889-bf95-6885f88d6d7f/acerleftside1.webp",
+      "AssetFile": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\d8abe7b8-51b6-4889-bf95-6885f88d6d7f\\acerleftside1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3142"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"M6w0nFYzRUMbdHxc/8+pszkioVTW3P3BSIWvz8SH78w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 05:16:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-M6w0nFYzRUMbdHxc/8+pszkioVTW3P3BSIWvz8SH78w="
+        }
+      ]
+    },
+    {
+      "Route": "images/d8abe7b8-51b6-4889-bf95-6885f88d6d7f/acerlord.uy3vevbgw6.webp",
+      "AssetFile": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\d8abe7b8-51b6-4889-bf95-6885f88d6d7f\\acerlord.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18540"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1n+YyqWX41R5OX2rEUx1eHxuJ3mgpKzcBEP7he3PaC4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 05:16:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uy3vevbgw6"
+        },
+        {
+          "Name": "label",
+          "Value": "images/d8abe7b8-51b6-4889-bf95-6885f88d6d7f/acerlord.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1n+YyqWX41R5OX2rEUx1eHxuJ3mgpKzcBEP7he3PaC4="
+        }
+      ]
+    },
+    {
+      "Route": "images/d8abe7b8-51b6-4889-bf95-6885f88d6d7f/acerlord.webp",
+      "AssetFile": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\d8abe7b8-51b6-4889-bf95-6885f88d6d7f\\acerlord.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18540"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1n+YyqWX41R5OX2rEUx1eHxuJ3mgpKzcBEP7he3PaC4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 05:16:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1n+YyqWX41R5OX2rEUx1eHxuJ3mgpKzcBEP7he3PaC4="
+        }
+      ]
+    },
+    {
+      "Route": "images/d8abe7b8-51b6-4889-bf95-6885f88d6d7f/acerlord1.m5xnvj9vlk.webp",
+      "AssetFile": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\d8abe7b8-51b6-4889-bf95-6885f88d6d7f\\acerlord1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28406"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zv0zzlLZtrSe9c6osY2ka7j9vVJPbC7Hd/kGzoIgVuw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 05:16:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m5xnvj9vlk"
+        },
+        {
+          "Name": "label",
+          "Value": "images/d8abe7b8-51b6-4889-bf95-6885f88d6d7f/acerlord1.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zv0zzlLZtrSe9c6osY2ka7j9vVJPbC7Hd/kGzoIgVuw="
+        }
+      ]
+    },
+    {
+      "Route": "images/d8abe7b8-51b6-4889-bf95-6885f88d6d7f/acerlord1.webp",
+      "AssetFile": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\d8abe7b8-51b6-4889-bf95-6885f88d6d7f\\acerlord1.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28406"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zv0zzlLZtrSe9c6osY2ka7j9vVJPbC7Hd/kGzoIgVuw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 05:16:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zv0zzlLZtrSe9c6osY2ka7j9vVJPbC7Hd/kGzoIgVuw="
+        }
+      ]
+    },
+    {
+      "Route": "images/d8abe7b8-51b6-4889-bf95-6885f88d6d7f/acerrightside.ap378l6w9s.webp",
+      "AssetFile": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\d8abe7b8-51b6-4889-bf95-6885f88d6d7f\\acerrightside.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3432"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fuos1HywptsCSq2+3r27qqxM9Ovlk4x5B+h0jqeXw8M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 05:16:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ap378l6w9s"
+        },
+        {
+          "Name": "label",
+          "Value": "images/d8abe7b8-51b6-4889-bf95-6885f88d6d7f/acerrightside.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fuos1HywptsCSq2+3r27qqxM9Ovlk4x5B+h0jqeXw8M="
+        }
+      ]
+    },
+    {
+      "Route": "images/d8abe7b8-51b6-4889-bf95-6885f88d6d7f/acerrightside.webp",
+      "AssetFile": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\images\\d8abe7b8-51b6-4889-bf95-6885f88d6d7f\\acerrightside.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3432"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fuos1HywptsCSq2+3r27qqxM9Ovlk4x5B+h0jqeXw8M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Dec 2024 05:16:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fuos1HywptsCSq2+3r27qqxM9Ovlk4x5B+h0jqeXw8M="
         }
       ]
     },

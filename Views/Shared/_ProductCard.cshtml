@@ -1,0 +1,41 @@
+﻿@model Demo_Code_First.Models.ProductCardViewModel;
+
+<div class="card col-3 shadow-sm rounded mx-2 my-3" style="width: 18rem;">
+    <!-- Ảnh sản phẩm -->
+    <img src="@Model.MainImage" class="card-img-top" alt="@Model.productName" style="height: 200px; object-fit: cover;">
+
+    <!-- Nội dung thẻ -->
+    <div class="card-body">
+        <h5 class="card-title text-primary">@Model.productName</h5>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+                <span class="fw-bold">Price:</span> $@Model.Price
+            </li>
+            <li class="list-group-item">
+                <span class="fw-bold">Quantity:</span> @Model.Quantity
+            </li>
+            <li class="list-group-item">
+                <span class="fw-bold">Category:</span> @Model.CategoryName
+            </li>
+        </ul>
+    </div>
+
+    <!-- Nút hành động -->
+    <div class="card-footer text-center">
+        <div class="btn-group w-100 gap-2" role="group">
+            <a asp-controller="Product"
+               asp-action="Details"
+               asp-route-id="@Model.productID"
+               class="btn btn-outline-primary btn-sm rounded-end shadow-sm">
+                <i class="bi bi-info-circle"></i> Details
+            </a>
+            <a asp-controller="Product"
+               asp-action="Cart"
+               asp-route-id="@Model.productID"
+               class="btn btn-outline-danger btn-sm rounded-end shadow-sm">
+                <i class="bi bi-cart-plus"></i> Add to Cart
+            </a>
+        </div>
+    </div>
+
+</div>

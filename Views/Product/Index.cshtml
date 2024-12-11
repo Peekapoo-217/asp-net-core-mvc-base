@@ -1,90 +1,4 @@
-﻿@* 
-@{
-    ViewData["Title"] = "Product Category";
-}
-
-
-<h1>Category </h1>
-<div class="form-group">
-	<input type="submit" value="Create" class="btn btn-primary" />
-</div>
-
-<table class="table table-bordered">
-    <thead>
-        <tr>
-            <th>ID</th>
-            <th>Name</th>
-            <th>Price</th>
-            <th>Quantity</th>
-            <th>Description</th>
-            <th>Actions</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var product in Model)
-        {
-            <tr>
-                <td>@product.productID</td>
-                <td>@product.productName</td>
-                <td>@product.Price?.ToString("C")</td>
-                <td>@product.Quantity</td>
-                <td>@product.Description</td>
-
-                <td>
-                    <button type="button" class="btn btn-sm btn-danger"
-                            data-bs-toggle="modal"
-                            data-bs-target="#deleteConfirmationModal"
-                            data-product-id="@product.productID">
-                        <i class="bi bi-trash"></i> Delete
-                    </button>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
-
-
-<!-- Modal Xác nhận -->
-<div class="modal fade" id="deleteConfirmationModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="deleteModalLabel">Xác nhận xóa</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                Bạn có chắc chắn muốn xóa sản phẩm này không?
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
-                <form id="deleteForm" method="post" style="display:inline;">
-                    <button type="submit" class="btn btn-danger">Xóa</button>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const deleteModal = document.getElementById('deleteConfirmationModal');
-        const deleteForm = document.getElementById('deleteForm');
-
-        deleteModal.addEventListener('show.bs.modal', function (event) {
-            // Lấy nút đã kích hoạt modal
-            const button = event.relatedTarget;
-            const productId = button.getAttribute('data-product-id');
-
-            // Cập nhật form action với productId
-            deleteForm.action = `/Product/Delete/${productId}`;
-        });
-    });
-</script>
-
-
- *@
- @model IEnumerable<Demo_Code_First.Models.Product>
+﻿@model List<Demo_Code_First.Models.ProductViewModel>
 
 @{
     ViewData["Title"] = "Product Category";
@@ -120,8 +34,12 @@
                 <td>@product.Price?.ToString("C")</td>
                 <td>@product.Quantity</td>
                 <td>@product.Description</td>
-                <td>@product.category?.CategoryName</td> <!-- Hiển thị tên danh mục -->
+                <td>@product.CategoryName</td> <!-- Hiển thị tên danh mục -->
                 <td>
+                    <a asp-controller="Product" asp-action="Edit" asp-route-id="@product.productID" class="btn btn-sm btn-warning">
+                        <i class="bi bi-pencil-square"></i> Edit
+                    </a>
+
                     <button type="button" class="btn btn-sm btn-danger"
                             data-bs-toggle="modal"
                             data-bs-target="#deleteConfirmationModal"

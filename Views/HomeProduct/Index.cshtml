@@ -1,0 +1,24 @@
+﻿@model IEnumerable<Demo_Code_First.Models.ProductCardViewModel>;
+@{
+    ViewData["Title"] = "Home";
+}
+
+<form method="post" asp-action="Index" asp-controller="HomeProduct">
+    <select name="CategoryId" asp-items="ViewBag.Categories">
+        <option>Select Category</option>
+    </select>
+    <button type="submit" class="btn btn-primary">Lọc </button>
+</form>
+
+<div class="row">
+    @foreach(var product in Model){
+        await Html.RenderPartialAsync("_ProductCard", product);
+    }
+</div>
+
+
+
+
+
+
+

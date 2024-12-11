@@ -1,0 +1,60 @@
+﻿@model Product
+@{
+}
+<div class="row justify-content-center">
+    <div class="col-md-8 mx-auto rounded border p-4 shadow-sm">
+        <h2 class="text-center mb-4">Edit Product</h2>
+
+        <form method="post">
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Name</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="productName" />
+                    <span asp-validation-for="productName"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Price</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="Price" />
+                    <span asp-validation-for="Price"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Quantity</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="Quantity" />
+                    <span asp-validation-for="Quantity"></span>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-4 col-form-label">Description</label>
+                <div class="col-sm-8">
+                    <input class="form-control" asp-for="Description" />
+                    <span asp-validation-for="Description"></span>
+                </div>
+            </div>
+
+            <div class="mb-4">
+                <label for="category" class="form-label">Category</label>
+                <select id="category" class="form-control" asp-for="categoryid" asp-items="ViewBag.Categories">
+                    <option>-- Select Category --</option>
+                </select>
+
+                <span asp-validation-for="category" class="text-danger"></span>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6 mb-3">
+                    <button type="submit" class="btn btn-primary w-100 btn-lg">Save</button>
+                </div>
+                <div class="col-sm-6">
+                    <a asp-controller="Product" asp-action="Index" class="btn btn-outline-secondary w-100 btn-lg">Cancel</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

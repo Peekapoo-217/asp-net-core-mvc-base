@@ -10,14 +10,31 @@ namespace Demo_Code_First.Controllers
     {
         private readonly AppDbContext _context;
 
-        public ProductController(AppDbContext context)
+        private readonly IWebHostEnvironment _webHostEnvironment;
+
+        public ProductController(AppDbContext context, IWebHostEnvironment webHostEnvironment)
         {
             _context = context;
+            _webHostEnvironment = webHostEnvironment;
         }
         public IActionResult Index()
         {
             var products = _context.Products.ToList();
-            return View(products);
+            var categories = _context.Categories.ToList();
+
+            List<ProductViewModel> productViewModels = (from category in categories
+                                                              join product in products on category.CategoryID equals product.categoryid
+                                                              select new ProductViewModel
+                                                              {
+                                                                  productID = product.productID,
+                                                                  productName = product.productName,
+                                                                  Price = product.Price,
+                                                                  Quantity = product.Quantity,
+                                                                  Description = product.Description,
+                                                                  CategoryName = category.CategoryName,
+                                                                  //ImagesDirectory = product.ImagesDirectory
+                                                              }).ToList();  
+            return View(productViewModels);
         }
 
         public IActionResult Create()
@@ -27,61 +44,83 @@ namespace Demo_Code_First.Controllers
         }
 
         [HttpPost]
-        public IActionResult Create(ProductDto productDto)
+        public async Task<IActionResult> Create(Product product, List<IFormFile> images)
         {
-            //if (!ModelState.IsValid)
-            //{
-            //    return View(productDto);
-
-            //}return RedirectToAction("Index", "Products");
+            // Kiểm tra tính hợp lệ của model
             if (!ModelState.IsValid)
             {
                 ViewBag.Categories = new SelectList(_context.Categories, "CategoryID", "CategoryName");
-                return View(productDto);
+                return View(product);
             }
-            var product = new Product
+
+            var imagesDirectory = $"{Guid.NewGuid()}";
+            var imagesDirectoryPath = Path.Combine(_webHostEnvironment.WebRootPath, "images", imagesDirectory);
+            Directory.CreateDirectory(imagesDirectoryPath);
+
+            foreach (var image in images)
             {
-                productName = productDto.productName,
-                Price = productDto.Price,
-                Quantity = productDto.Quantity,
-                Description = productDto.Description,
-                categoryid = productDto.categoryid
+                var imageFilePath = Path.Combine(imagesDirectoryPath, Path.GetFileName(image.FileName));
+                using (var stream = new FileStream(imageFilePath, FileMode.Create))
+                {
+                    await image.CopyToAsync(stream);
+                }
+            }
+
+            var newProduct = new Product
+            {
+                productName = product.productName,
+                Price = product.Price,
+                Quantity = product.Quantity,
+                Description = product.Description,
+                categoryid = product.categoryid,
+                ImagesDirectory = imagesDirectory
             };
 
-                // Thêm sản phẩm vào cơ sở dữ liệu
                 _context.Products.Add(newProduct);
                 _context.SaveChanges();
 
-            // Điều hướng về trang Index sau khi lưu thành công
             return RedirectToAction("Index", "Product");
         }
 
-        public IActionResult Edit(int id, Product product)
+        public IActionResult Edit(int id)
         {
-            var productEdit = _context.Products.Find(id);
+            var productEdit = _context.Products.Include(p => p.category).FirstOrDefault(p => p.productID == id);
             if (productEdit == null)
             {
-                return RedirectToAction("Index", "Products");
+                return NotFound();
             }
+            ViewBag.Categories = new SelectList(_context.Categories, "CategoryID", "CategoryName");
 
-                ViewBag.Categories = new SelectList(_context.Categories, "Id", "Name");
+            return View(productEdit);
+        }
 
+
+        [HttpPost]
+        public IActionResult Edit(int id, Product product)
+        {
             if (!ModelState.IsValid)
             {
-                ViewBag.ProductId = product.categoryid;
+                ViewBag.Categories = new SelectList(_context.Categories, "CategoryID", "CategoryName");
                 return View(product);
             }
+
+            var productEdit = _context.Products.FirstOrDefault(p => p.productID == id);
+
+            if (productEdit == null)
+            {
+                return NotFound();
+            }
+
             productEdit.productName = product.productName;
             productEdit.Price = product.Price;
             productEdit.Quantity = product.Quantity;
             productEdit.Description = product.Description;
-            productEdit.category = product.category;
+            productEdit.categoryid = product.categoryid;
+            _context.SaveChanges(); 
 
-            _context.SaveChanges();
-
-            return RedirectToAction("Index", "Products");
+            return RedirectToAction("Index");
         }
-
+         
 
         public IActionResult Details(int id)
         {
@@ -113,6 +152,7 @@ namespace Demo_Code_First.Controllers
 
             return View(productDetailsViewModel);
         }
+
 
         public IActionResult Delete(int id)
         {

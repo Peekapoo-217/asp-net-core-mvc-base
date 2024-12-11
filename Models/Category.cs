@@ -12,7 +12,7 @@ namespace Demo_Code_First.Models
         public string CategoryName { get; set; }
 
 
-        [StringLength(100)]
-        public string CategoryDescription { get; set; }
+        //[StringLength(100)]
+        //public string CategoryDescription { get; set; }
     }
 }
