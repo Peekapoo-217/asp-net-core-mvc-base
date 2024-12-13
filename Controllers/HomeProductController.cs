@@ -20,7 +20,6 @@ namespace Demo_Code_First.Controllers
         public async Task<IActionResult> Index([Bind("CategoryId")] ProductFilter filter, string SearchTerm, int page = 1, int pageSize = 4)
         {
             {
-                // Lấy danh sách sản phẩm từ cơ sở dữ liệu
                 var productsQuery = _context.Products.AsQueryable();
 
                 // Lọc sản phẩm theo CategoryId nếu có
@@ -34,15 +33,13 @@ namespace Demo_Code_First.Controllers
                 {
                     productsQuery = productsQuery.Where(p => p.productName.Contains(SearchTerm));
                 }
-
-                // Tính toán số sản phẩm trên mỗi trang
+            //Phân trang nè    
                 var totalProducts = await productsQuery.CountAsync();
                 var totalPages = (int)Math.Ceiling(totalProducts / (double)pageSize);
 
-                // Lấy danh sách sản phẩm cho trang hiện tại
                 var products = await productsQuery
-                    .Skip((page - 1) * pageSize) // Bỏ qua số sản phẩm đã có trên các trang trước
-                    .Take(pageSize)             // Lấy số sản phẩm theo pageSize
+                    .Skip((page - 1) * pageSize) 
+                    .Take(pageSize)           
                     .ToListAsync();
 
                 products = products.Where(p => (filter.CategoryId != null) ? p.categoryid == filter.CategoryId : 1 == 1).ToList();
