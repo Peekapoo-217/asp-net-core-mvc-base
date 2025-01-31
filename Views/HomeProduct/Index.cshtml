@@ -36,10 +36,7 @@
 <div class="row">
     @foreach (var product in Model)
     {
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center">
-            <!-- Canh giữa mỗi sản phẩm -->
-            @await Html.PartialAsync("_ProductCard", product)
-        </div>
+        @await Html.PartialAsync("_ProductCard", product)
     }
 </div>
 

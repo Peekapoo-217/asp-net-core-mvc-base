@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C6813168-531E-45B5-B579-B81E978D2885}|Demo_Code_First.csproj|f:\\asp core\\advanced_c#\\demo_code_first\\controllers\\homeproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6813168-531E-45B5-B579-B81E978D2885}|Demo_Code_First.csproj|solutionrelative:controllers\\homeproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6813168-531E-45B5-B579-B81E978D2885}|Demo_Code_First.csproj|f:\\asp core\\advanced_c#\\demo_code_first\\views\\shared\\_productcard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6813168-531E-45B5-B579-B81E978D2885}|Demo_Code_First.csproj|solutionrelative:views\\shared\\_productcard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6813168-531E-45B5-B579-B81E978D2885}|Demo_Code_First.csproj|f:\\asp core\\advanced_c#\\demo_code_first\\views\\homeproduct\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C6813168-531E-45B5-B579-B81E978D2885}|Demo_Code_First.csproj|solutionrelative:views\\homeproduct\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6813168-531E-45B5-B579-B81E978D2885}|Demo_Code_First.csproj|f:\\asp core\\advanced_c#\\demo_code_first\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C6813168-531E-45B5-B579-B81E978D2885}|Demo_Code_First.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6813168-531E-45B5-B579-B81E978D2885}|Demo_Code_First.csproj|f:\\asp core\\advanced_c#\\demo_code_first\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{C6813168-531E-45B5-B579-B81E978D2885}|Demo_Code_First.csproj|solutionrelative:wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6813168-531E-45B5-B579-B81E978D2885}|Demo_Code_First.csproj|f:\\asp core\\advanced_c#\\demo_code_first\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6813168-531E-45B5-B579-B81E978D2885}|Demo_Code_First.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6813168-531E-45B5-B579-B81E978D2885}|Demo_Code_First.csproj|f:\\asp core\\advanced_c#\\demo_code_first\\controllers\\homeproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6813168-531E-45B5-B579-B81E978D2885}|Demo_Code_First.csproj|solutionrelative:controllers\\homeproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,50 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\Views\\Product\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
-              "ToolTip": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\Views\\Product\\Index.cshtml",
-              "RelativeToolTip": "Views\\Product\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-12T06:32:49.04Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "style.css",
-              "DocumentMoniker": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\css\\style.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\style.css",
-              "ToolTip": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\wwwroot\\css\\style.css",
-              "RelativeToolTip": "wwwroot\\css\\style.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-12T06:12:04.347Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HomeProductController.cs",
-              "DocumentMoniker": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\Controllers\\HomeProductController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeProductController.cs",
-              "ToolTip": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\Controllers\\HomeProductController.cs",
-              "RelativeToolTip": "Controllers\\HomeProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T12:55:10.724Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -83,22 +36,36 @@
               "RelativeDocumentMoniker": "Views\\HomeProduct\\Index.cshtml",
               "ToolTip": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\Views\\HomeProduct\\Index.cshtml",
               "RelativeToolTip": "Views\\HomeProduct\\Index.cshtml",
-              "ViewState": "AgIAACkAAAAAAAAAAAAAADgAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-11T12:38:13.111Z",
+              "WhenOpened": "2025-01-31T02:45:18.006Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "_ProductCard.cshtml",
+              "DocumentMoniker": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\Views\\Shared\\_ProductCard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ProductCard.cshtml",
+              "ToolTip": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\Views\\Shared\\_ProductCard.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ProductCard.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-31T02:20:56.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeProductController.cs",
+              "DocumentMoniker": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\Controllers\\HomeProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeProductController.cs",
+              "ToolTip": "F:\\ASP Core\\Advanced_C#\\Demo_Code_First\\Controllers\\HomeProductController.cs",
+              "RelativeToolTip": "Controllers\\HomeProductController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAwCQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T10:52:07.6Z"
+              "WhenOpened": "2025-01-16T07:56:38.847Z",
+              "EditorCaption": ""
             }
           ]
         }

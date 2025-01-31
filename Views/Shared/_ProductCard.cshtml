@@ -1,41 +1,52 @@
 ﻿@model Demo_Code_First.Models.ProductCardViewModel;
 
-<div class="card col-3 shadow-sm rounded mx-2 my-3" style="width: 18rem;">
-    <!-- Ảnh sản phẩm -->
-    <img src="@Model.MainImage" class="card-img-top" alt="@Model.productName" style="height: 200px; object-fit: cover;">
+<div class="col-md-3 col-sm-6 mb-4">
+    <div class="card shadow-sm rounded overflow-hidden border-0 product-card d-flex flex-column h-100" style="width: 100%; cursor: pointer;">
+        <a asp-controller="Product" asp-action="Details" asp-route-id="@Model.productID"
+           class="text-decoration-none text-dark">
+            <!-- Ảnh sản phẩm -->
+            <div class="position-relative">
+                <img src="@Model.MainImage" class="card-img-top img-fluid" alt="@Model.productName"
+                     style="height: 220px; object-fit: cover;">
+            </div>
+                
+            <!-- Nội dung thẻ -->
+            <div class="card-body text-center flex-grow-1">
+                <h5 class="card-title text-primary fw-bold" style="height: 48px">@Model.productName</h5>
+                <ul class="list-group list-group-flush text-start">
+                    <li class="list-group-item border-0">
+                        <span class="fw-bold text-muted">💰 Price:</span>
+                        <span class="text-danger fw-semibold">$@Model.Price</span>
+                    </li>
+                    <li class="list-group-item border-0">
+                        <span class="fw-bold text-muted">📦 Quantity:</span> @Model.Quantity
+                    </li>
+                    <li class="list-group-item border-0">
+                        <span class="fw-bold text-muted">🏷 Category:</span> @Model.CategoryName
+                    </li>
+                </ul>
+            </div>
+        </a>
 
-    <!-- Nội dung thẻ -->
-    <div class="card-body">
-        <h5 class="card-title text-primary">@Model.productName</h5>
-        <ul class="list-group list-group-flush">
-            <li class="list-group-item">
-                <span class="fw-bold">Price:</span> $@Model.Price
-            </li>
-            <li class="list-group-item">
-                <span class="fw-bold">Quantity:</span> @Model.Quantity
-            </li>
-            <li class="list-group-item">
-                <span class="fw-bold">Category:</span> @Model.CategoryName
-            </li>
-        </ul>
-    </div>
-
-    <!-- Nút hành động -->
-    <div class="card-footer text-center">
-        <div class="btn-group w-100 gap-2" role="group">
-            <a asp-controller="Product"
-               asp-action="Details"
-               asp-route-id="@Model.productID"
-               class="btn btn-outline-primary btn-sm rounded-end shadow-sm">
-                <i class="bi bi-info-circle"></i> Details
-            </a>
+        <!-- Nút hành động -->
+        <div class="card-footer text-center bg-white border-0 mt-auto">
             <a asp-controller="Product"
                asp-action="Cart"
                asp-route-id="@Model.productID"
-               class="btn btn-outline-danger btn-sm rounded-end shadow-sm">
+               class="btn btn-danger btn-sm w-100 shadow-sm d-flex align-items-center justify-content-center gap-2">
                 <i class="bi bi-cart-plus"></i> Add to Cart
             </a>
         </div>
     </div>
-
 </div>
+
+<style>
+    .product-card {
+        transition: transform 0.2s ease-in-out, box-shadow 0.3s ease;
+    }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+        }
+</style>

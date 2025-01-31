@@ -17,63 +17,75 @@ namespace Demo_Code_First.Controllers
             _webHostEnvironment = webHostEnvironment;
         }
 
-        public async Task<IActionResult> Index([Bind("CategoryId")] ProductFilter filter, string SearchTerm, int page = 1, int pageSize = 4)
+
+        /// <summary>
+        /// Handles the Index action for displaying a paginated list of products.
+        /// Supports filtering by category and searching by product name.
+        /// </summary>
+        /// <param name="filter">Filter options for category</param>
+        /// <param name="searchTerm">Search term for product name</param>
+        /// <param name="page">Current page number</param>
+        /// <param name="pageSize">Number of items per page</param>
+        /// <returns>A view displaying the list of products</returns>
+        public async Task<IActionResult> Index([Bind("CategoryId")] ProductFilter filter, string searchTerm, int page = 1, int pageSize = 4)
         {
+            // Step 1: Initialize query for products
+            var productsQuery = _context.Products.AsQueryable();
+
+            // Step 2: Apply filters
+            if (filter.CategoryId != null)
             {
-                var productsQuery = _context.Products.AsQueryable();
-
-                // Lọc sản phẩm theo CategoryId nếu có
-                if (filter.CategoryId != null)
-                {
-                    productsQuery = productsQuery.Where(p => p.categoryid == filter.CategoryId);
-                }
-
-                // Lọc theo SearchTerm nếu có
-                if (!string.IsNullOrEmpty(SearchTerm))
-                {
-                    productsQuery = productsQuery.Where(p => p.productName.Contains(SearchTerm));
-                }
-            //Phân trang nè    
-                var totalProducts = await productsQuery.CountAsync();
-                var totalPages = (int)Math.Ceiling(totalProducts / (double)pageSize);
-
-                var products = await productsQuery
-                    .Skip((page - 1) * pageSize) 
-                    .Take(pageSize)           
-                    .ToListAsync();
-
-                products = products.Where(p => (filter.CategoryId != null) ? p.categoryid == filter.CategoryId : 1 == 1).ToList();
-
-                var categories = await _context.Categories.ToListAsync();
-
-                List<ProductCardViewModel> productCardViewModels = new List<ProductCardViewModel>();
-                foreach (var product in products)
-                {
-                    var fullImagesDirectoryPath = Path.Combine(_webHostEnvironment.WebRootPath, "images", product.ImagesDirectory);
-                    var files = Directory.GetFiles(fullImagesDirectoryPath, "*.*").ToList();
-                    var randomFile = files.First();
-                    randomFile = Path.GetRelativePath(_webHostEnvironment.WebRootPath, randomFile);
-
-                    var category = categories.FirstOrDefault(c => c.CategoryID == product.categoryid);
-
-
-                    productCardViewModels.Add(new ProductCardViewModel
-                    {
-                        productID = product.productID,
-                        productName = product.productName,
-                        Price = product.Price,
-                        Quantity = product.Quantity,
-                        MainImage = randomFile,
-                        CategoryName = category?.CategoryName
-                    });
-                }
-
-                // Gửi các dữ liệu cần thiết vào View
-                ViewBag.CurrentPage = page;
-                ViewBag.TotalPages = totalPages;
-                ViewBag.Categories = new SelectList(categories, "CategoryID", "CategoryName");
-                return View(productCardViewModels);
+                // Filter products by category ID
+                productsQuery = productsQuery.Where(p => p.categoryid == filter.CategoryId);
             }
+
+            if (!string.IsNullOrEmpty(searchTerm))
+            {
+                // Filter products by search term in product name
+                productsQuery = productsQuery.Where(p => p.productName.Contains(searchTerm));
+            }
+
+            // Step 3: Pagination logic
+            var totalProducts = await productsQuery.CountAsync(); // Get total number of filtered products
+            var totalPages = (int)Math.Ceiling(totalProducts / (double)pageSize); // Calculate total pages
+            var products = await productsQuery
+                .Skip((page - 1) * pageSize) // Skip items for previous pages
+                .Take(pageSize)             // Take items for the current page
+                .ToListAsync();
+
+            // Step 4: Load categories for dropdown
+            var categories = await _context.Categories.ToListAsync();
+
+            // Step 5: Build view models for each product
+            var productCardViewModels = products.Select(product =>
+            {
+                // Get a random image from the product's image directory
+                var fullImagesDirectoryPath = Path.Combine(_webHostEnvironment.WebRootPath, "images", product.ImagesDirectory);
+                var files = Directory.GetFiles(fullImagesDirectoryPath, "*.*").ToList();
+                var randomFile = files.Any() ? Path.GetRelativePath(_webHostEnvironment.WebRootPath, files.First()) : null;
+
+                // Find the product's category
+                var category = categories.FirstOrDefault(c => c.CategoryID == product.categoryid);
+
+                // Create a product view model
+                return new ProductCardViewModel
+                {
+                    productID = product.productID,
+                    productName = product.productName,
+                    Price = product.Price,
+                    Quantity = product.Quantity,
+                    MainImage = randomFile,
+                    CategoryName = category?.CategoryName
+                };
+            }).ToList();
+
+            // Step 6: Pass data to the view
+            ViewBag.CurrentPage = page;
+            ViewBag.TotalPages = totalPages;
+            ViewBag.Categories = new SelectList(categories, "CategoryID", "CategoryName");
+
+            return View(productCardViewModels);
         }
+
     }
 }
